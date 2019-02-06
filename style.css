@@ -1,0 +1,91 @@
+body{
+  background-color: #dfdfdf;
+  font-family: "Courier New", Times, Serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h1{
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: #FFBE00;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+
+h2{
+  color: black,
+  line-height: 100px;
+}
+
+h3{
+  color: #005549;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 300;
+}
+
+a{
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  width: 500px;   /* This sets the width */
+  margin: 10px auto; /* This automatically sets left/right margins */
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.light-shadow {
+  box-shadow: 1px 1px 10px rgba(150,150,150, 0.5)
+}
+
+.profile {
+  width: 300px;
+  border-radius: 50pc;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.side-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  padding-left: 0px;
+}
+
+td > h3 {
+  margin-bottom: 0;
+}
+
+td > p {
+  margin-top: 0;
+}
